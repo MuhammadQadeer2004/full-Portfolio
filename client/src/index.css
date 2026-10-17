@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-mist font-body text-ink antialiased;
+  }
+  :focus-visible {
+    outline: 3px solid #5b3ff5;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: #ffc83d;
+    color: #1a1446;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-marquee,
+  .animate-marquee-reverse,
+  .animate-ping2 {
+    animation: none !important;
+  }
+}
