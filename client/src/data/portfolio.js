@@ -6,7 +6,7 @@
 export const profile = {
   name: "Muhammad Qadeer",
   initials: "MQ",
-  role: "Frontend Developer",
+  role: "Full Stack/ Web Developer",
   headline:
     "I create responsive, user-friendly interfaces with React.js and modern frontend technologies.I turn ideas into powerful web applications using React.js, Node.js, Express.js, and MongoDB.",
   email: "qadeer142004@gmail.com",
